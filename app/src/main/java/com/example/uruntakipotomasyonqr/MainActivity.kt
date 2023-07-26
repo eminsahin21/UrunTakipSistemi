@@ -40,9 +40,6 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-                println("ahmet mehmet mahmut")
-
-
 
     }
 }
