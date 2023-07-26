@@ -4,6 +4,7 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.example.uruntakipotomasyonqr.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -23,6 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.button.setOnClickListener {
             val intent = Intent(applicationContext , ScanActivity::class.java)
+//            Toast.makeText(this, "naber la", Toast.LENGTH_SHORT).show()
             startActivity(intent)
         }
 
