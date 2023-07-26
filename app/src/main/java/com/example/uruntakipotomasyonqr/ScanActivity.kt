@@ -17,7 +17,6 @@ import me.dm7.barcodescanner.zxing.ZXingScannerView
 class ScanActivity : AppCompatActivity(),ZXingScannerView.ResultHandler{
 
     var scannerView : ZXingScannerView? = null
-    //naberlo
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
