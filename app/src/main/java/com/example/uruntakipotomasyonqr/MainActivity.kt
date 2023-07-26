@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-        println("ahmet deneme")
+                println("ahmet mehmet mahmut")
 
 
 
