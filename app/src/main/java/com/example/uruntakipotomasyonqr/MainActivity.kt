@@ -4,6 +4,7 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.example.uruntakipotomasyonqr.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
