@@ -24,7 +24,6 @@ class MainActivity : AppCompatActivity() {
 
         binding.button.setOnClickListener {
             val intent = Intent(applicationContext , ScanActivity::class.java)
-//            Toast.makeText(this, "naber la", Toast.LENGTH_SHORT).show()
             startActivity(intent)
         }
 
