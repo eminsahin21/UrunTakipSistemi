@@ -39,6 +39,8 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        println("ahmet deneme")
+
 
 
     }
