@@ -17,6 +17,9 @@
         android:theme="@style/Theme.UrunTakipOtomasyonQR"
         tools:targetApi="31">
         <activity
+            android:name=".BantPersonelEkranActivity"
+            android:exported="false" />
+        <activity
             android:name=".ScanActivity"
             android:exported="false" />
         <activity
